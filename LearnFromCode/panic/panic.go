@@ -2,11 +2,27 @@ package main
 import ( 
   "fmt"
 )
+
 func main(){
-  getDemo() 
+  explicCallPanicTest()  //explicitly call panic() test
+  //systemPanicTest()    //system panic test
   fmt.Println("+++ main exit. +++")
 }
-func getDemo(){
+
+func systemPanicTest(){
+  defer func(){ 
+    if v := recover();v != nil { 
+      fmt.Printf("--- Recovered a panic:%v\n",v)
+    } 
+    fmt.Printf("+++ test() defer.+++\n") 
+  }() 
+  myIndex := 4 
+  ia := [3]int{1,2,3}
+  _=ia[myIndex]
+  fmt.Printf("+++ test exit. +++\n")
+}
+
+func explicCallPanicTest(){
   defer func(){
     if v := recover();v != nil {
       fmt.Printf("--- Recovered a panic. [index=%d]\n",v)  
@@ -18,6 +34,7 @@ func getDemo(){
   getElement(str,0) 
   fmt.Println("+++ getDemo() exit. +++")
 }
+
 func getElement(str []string,index int)(element string){
   defer func(){
   fmt.Printf("+++ getElement() defer. +++\n")
