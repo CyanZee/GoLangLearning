@@ -1,0 +1,100 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;json&gt;">
+    <CLASSES>
+      <root url="file:///src/go1.9/src/time" />
+      <root url="file:///src/go1.9/src/container" />
+      <root url="file:///src/go1.9/src/mime" />
+      <root url="file:///src/go1.9/src/fmt" />
+      <root url="file:///src/go1.9/src/path" />
+      <root url="file:///src/go1.9/src/reflect" />
+      <root url="file:///src/go1.9/src/context" />
+      <root url="file:///src/go1.9/src/html" />
+      <root url="file:///src/go1.9/src/text" />
+      <root url="file:///src/go1.9/src/net" />
+      <root url="file:///src/go1.9/src/image" />
+      <root url="file:///src/go1.9/src/compress" />
+      <root url="file:///src/go1.9/src/io" />
+      <root url="file:///src/go1.9/src/testing" />
+      <root url="file:///src/go1.9/src/index" />
+      <root url="file:///src/go1.9/src/archive" />
+      <root url="file:///src/go1.9/src/sort" />
+      <root url="file:///src/go1.9/src/encoding" />
+      <root url="file:///src/go1.9/src/sync" />
+      <root url="file:///src/go1.9/src/crypto" />
+      <root url="file:///src/go1.9/src/strconv" />
+      <root url="file:///src/go1.9/src/unicode" />
+      <root url="file:///src/go1.9/src/cmd" />
+      <root url="file:///src/go1.9/src/math" />
+      <root url="file:///src/go1.9/src/hash" />
+      <root url="file:///src/go1.9/src/errors" />
+      <root url="file:///src/go1.9/src/syscall" />
+      <root url="file:///src/go1.9/src/regexp" />
+      <root url="file:///src/go1.9/src/bufio" />
+      <root url="file:///src/go1.9/src/internal" />
+      <root url="file:///src/go1.9/src/expvar" />
+      <root url="file:///src/go1.9/src/runtime" />
+      <root url="file:///src/go1.9/src/flag" />
+      <root url="file:///src/go1.9/src/log" />
+      <root url="file:///src/go1.9/src/unsafe" />
+      <root url="file:///src/go1.9/src/database" />
+      <root url="file:///src/go1.9/src/strings" />
+      <root url="file:///src/go1.9/src/vendor" />
+      <root url="file:///src/go1.9/src/debug" />
+      <root url="file:///src/go1.9/src/os" />
+      <root url="file:///src/go1.9/src/builtin" />
+      <root url="file:///src/go1.9/src/go" />
+      <root url="file:///src/go1.9/src/plugin" />
+      <root url="file:///src/go1.9/src/bytes" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///src/go1.9/src/time" />
+      <root url="file:///src/go1.9/src/container" />
+      <root url="file:///src/go1.9/src/mime" />
+      <root url="file:///src/go1.9/src/fmt" />
+      <root url="file:///src/go1.9/src/path" />
+      <root url="file:///src/go1.9/src/reflect" />
+      <root url="file:///src/go1.9/src/context" />
+      <root url="file:///src/go1.9/src/html" />
+      <root url="file:///src/go1.9/src/text" />
+      <root url="file:///src/go1.9/src/net" />
+      <root url="file:///src/go1.9/src/image" />
+      <root url="file:///src/go1.9/src/compress" />
+      <root url="file:///src/go1.9/src/io" />
+      <root url="file:///src/go1.9/src/testing" />
+      <root url="file:///src/go1.9/src/index" />
+      <root url="file:///src/go1.9/src/archive" />
+      <root url="file:///src/go1.9/src/sort" />
+      <root url="file:///src/go1.9/src/encoding" />
+      <root url="file:///src/go1.9/src/sync" />
+      <root url="file:///src/go1.9/src/crypto" />
+      <root url="file:///src/go1.9/src/strconv" />
+      <root url="file:///src/go1.9/src/unicode" />
+      <root url="file:///src/go1.9/src/cmd" />
+      <root url="file:///src/go1.9/src/math" />
+      <root url="file:///src/go1.9/src/hash" />
+      <root url="file:///src/go1.9/src/errors" />
+      <root url="file:///src/go1.9/src/syscall" />
+      <root url="file:///src/go1.9/src/regexp" />
+      <root url="file:///src/go1.9/src/bufio" />
+      <root url="file:///src/go1.9/src/internal" />
+      <root url="file:///src/go1.9/src/expvar" />
+      <root url="file:///src/go1.9/src/runtime" />
+      <root url="file:///src/go1.9/src/flag" />
+      <root url="file:///src/go1.9/src/log" />
+      <root url="file:///src/go1.9/src/unsafe" />
+      <root url="file:///src/go1.9/src/database" />
+      <root url="file:///src/go1.9/src/strings" />
+      <root url="file:///src/go1.9/src/vendor" />
+      <root url="file:///src/go1.9/src/debug" />
+      <root url="file:///src/go1.9/src/os" />
+      <root url="file:///src/go1.9/src/builtin" />
+      <root url="file:///src/go1.9/src/go" />
+      <root url="file:///src/go1.9/src/plugin" />
+      <root url="file:///src/go1.9/src/bytes" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
