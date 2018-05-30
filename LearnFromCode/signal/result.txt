@@ -1,0 +1,14 @@
++++ Wait for 2 seconds...
++++ Run command:/bin/ps aux
++++ Run command:/bin/grep signal
++++ Run command:/bin/grep -v grep
++++ Run command:/bin/grep -v go run
++++ Run command:/usr/bin/awk {print $2}
++++ Printf pids: [16668 17065]
++++ Received a signal from sigRecv2:quit
++++ Received a signal from sigRecv1:quit
++++ Stop motification.
++++ Done.[sigRecv1]
++++ End.[sigRecv1]
++++ Done.[sigRecv2]
++++ End.[sigRecv2]
